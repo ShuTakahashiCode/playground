@@ -1,0 +1,13 @@
+[package]
+name = "peak_specificity"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+flate2 = "1.0"
+anyhow = "1.0"
+tsv_utils = { path = "../tsv_utils" }
+glob = "0.3.2"
+
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9"
