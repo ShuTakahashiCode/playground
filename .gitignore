@@ -1,0 +1,69 @@
+# OS・エディタ・IDE関連
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.vscode/
+.idea/
+.history/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*.swn
+
+# 一時・ログ・バックアップ
+*.log
+*.tmp
+*.bak
+*.old
+*.orig
+*.rej
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Rust
+/target/
+**/target/
+*.rs.bk
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+Cargo.lock
+
+# カバレッジ・パッチ
+.coverage/
+coverage/
+*.lcov
+
+# 環境・設定
+.env
+.env.*
+setting.yaml
+
+# データ・成果物
+catlas/data/
+peak_specificity/data/
+gene/data/
+*.csv
+*.tsv
+*.xlsx
+regions.bed
+
+# Git自身
+.git/
